@@ -25,7 +25,6 @@ class Car(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
         self.image = pygame.image.load("racecar1.png").convert_alpha()
-        self.direction = direction
         self.rect = self.image.get_rect()
 
 
